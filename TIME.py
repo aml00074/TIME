@@ -1,2 +1,4 @@
+import pytz
 import datetime
-print(datetime.datetime.now())
+#print(pytz.all_timezones) #España es 'Europe/Madrid',
+print(datetime.datetime.now(pytz.timezone('Europe/Madrid')))
